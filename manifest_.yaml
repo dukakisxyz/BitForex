@@ -53,7 +53,8 @@ info:
   contact:
     name: erres
     email: erres@tutanota.de
-host: [fcce:a977:ee7d:817b:3380:0000:0000:0001]:9000
+host: '[fcce:a977:ee7d:817b:3380:0000:0000:0001]:9000'
 schemes:
   - http
 basePath: /
+x-21-manifest-path: /manifest
