@@ -1,0 +1,56 @@
+basePath: /
+host: '[fcce:a977:ee7d:817b:3380:0000:0000:0001]:9000'
+info:
+contact: {email: erres@tutanota.de, name: erres}
+description: Providing current and historical foreign exchange rates
+title: BitForex
+x-21-app-image: http://imgur.com/a/Lv4GW
+x-21-category: utilities
+x-21-keywords: [Forex, data, exchange, finance]
+x-21-quick-buy: '$ 21 buy "http://[fcce:a977:ee7d:817b:3380:0000:0000:0001]:9000/latest>"
+
+#   Output:
+
+#       {
+
+#           "base": "EUR",
+
+#           "date": "2016-10-14",
+
+#           "rates": {
+
+#               "NZD": 1.5508,
+
+#               "GBP": 0.8991,
+
+#               "HUF": 305.31,
+
+#               ..............
+
+#           }
+
+#       }
+
+
+#  Rates are quoted against the Euro by default. Quote against a different currency by setting the base parameter in your request.
+
+#  For example:
+
+#  21 buy http://[fcce:a977:ee7d:817b:3380:0000:0000:0001]:9000/latest/USD
+
+#  You can fetch historical data as shown below:
+
+#  21 buy http://[fcce:a977:ee7d:817b:3380:0000:0000:0001]:9000/get/2016-10-13
+
+#  Note: The date must be in the specified format: YYYY-MM-DD, single digit days or months will return an error.
+
+#  You can quote against a different currency while fetching historical data by setting the base parameter in your request:
+
+#  For example:
+
+#  21 buy http://[fcce:a977:ee7d:817b:3380:0000:0000:0001]:9000/get/2016-10-13/usd
+
+'
+x-21-total-price: {max: 3000, min: 3000}
+schemes: [http]
+x-21-manifest-path: /manifest
