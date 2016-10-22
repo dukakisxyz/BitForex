@@ -1,7 +1,7 @@
 info:
   title: 'BitForex'
   description: 'Providing current and historical foreign exchange rates'
-  x-21-quick-buy: '$ 21 buy "http://[fcce:a977:ee7d:817b:3380:0000:0000:0001]:9000/latest>"
+  x-21-quick-buy: '$ 21 buy "http://[fcce:a977:ee7d:817b:3380:0000:0000:0001]:9000/latest"
 
 #   Output:
 
@@ -32,11 +32,13 @@ info:
 
 #  21 buy http://[fcce:a977:ee7d:817b:3380:0000:0000:0001]:9000/latest/USD
 
+
 #  You can fetch historical data as shown below:
 
 #  21 buy http://[fcce:a977:ee7d:817b:3380:0000:0000:0001]:9000/get/2016-10-13
 
 #  Note: The date must be in the specified format: YYYY-MM-DD, single digit days or months will return an error.
+
 
 #  You can quote against a different currency while fetching historical data by setting the base parameter in your request:
 
@@ -46,7 +48,7 @@ info:
 
 '
   x-21-category: utilities
-  x-21-app-image: "http://imgur.com/a/Lv4GW"
+  x-21-app-image: 'http://imgur.com/a/Lv4GW'
   x-21-total-price:
     min: 3000
     max: 3000
